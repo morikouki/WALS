@@ -66,14 +66,14 @@ main {
 	padding: 90px 0;
 }
 
-.portfolio-logo {
+.logo {
 	font-size: 32px;
-	text-align: center;
 	color: #000000;
+	text-align: center;
 	position: relative;
 }
 
-.portfolio-logo:before {
+.logo:before {
   content: '';
   position: absolute;
   left: 50%;
@@ -86,7 +86,7 @@ main {
   background-color: #ec715f;/*線の色*/
 }
 
-.portfolio-text {
+.text {
 	color: #000000;
 	font-size: 16px;
 	text-align: center;
@@ -153,32 +153,6 @@ main {
 	margin: 90px auto;
 }
 
-.feature-logo {
-	color: #000000;
-	font-size: 32px;
-	text-align: center;
-	position: relative;
-}
-
-.feature-logo:before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -8px;/*線の上下位置*/
-  display: inline-block;
-  width: 70px;/*線の長さ*/
-  height: 3px;/*線の太さ*/
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);/*位置調整*/
-  background-color: #ec715f;/*線の色*/
-}
-
-.feature-text {
-	color: #000000;
-	text-align: center;
-	margin: 30px 0;
-}
-
 .strength-box {
 	width: 320px;
 	float: left;
@@ -220,33 +194,6 @@ main {
 	margin: 0 auto;
 }
 
-.profile-logo {
-	font-size: 32px;
-	color: #000000;
-	text-align: center;
-	position: relative;
-}
-
-.profile-logo:before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -8px;/*線の上下位置*/
-  display: inline-block;
-  width: 70px;/*線の長さ*/
-  height: 3px;/*線の太さ*/
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);/*位置調整*/
-  background-color: #ec715f;/*線の色*/
-}
-
-.profile-text {
-	color: #000000;
-	font-size: 16px;
-	text-align: center;
-	margin: 30px 0;
-}
-
 .profile-image-box {
 	width: 512px;
 	float: left;
@@ -267,19 +214,70 @@ main {
 	float: left;
 }
 
-.profile-image-logo {
-	color: #000000;
-	font-size: 20px;
-	margin-bottom: 5px;
-}
-
 .my-profile-text {
 	color: #000000;
 	font-size: 16px;
 	margin-bottom: 20px;
 }
 
+.contact {
+	width: 800px;
+	margin: 90px auto;
+}
 
+.contact-box {
+	width: 400px;
+	float: left;
+}
+
+.contact-box1 {
+	width: 130px;
+	margin: 0 auto;
+}
+
+.contact-box-logo {
+	color: #000000;
+	margin-bottom: 5px;
+}
+
+.contact-box-text {
+	color: #000000;
+}
+
+.contact-icon {
+	float: left;
+}
+
+.contact-icon2 {
+	margin: 0 20px;
+}
+
+.fabicon {
+	color: #000000;
+	font-size: 50px;
+}
+
+.contact-box-logo2 {
+	margin-top: 20px;
+}
+
+.contact-box2 {
+	width: 170px;
+	margin: 0 auto;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #ec715f;
+}
+
+.footer-logo {
+	font-size: 16px;
+	color: #fafafa;
+	text-align: center;
+	line-height: 60px;
+}
 
 
 
