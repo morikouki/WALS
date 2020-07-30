@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #ec715f;
+}
+
+.header-nav {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.list {
+	list-style: none;
+	float: right;
+}
+
+.list-item {
+	font-size: 16px;
+	line-height: 70px;
+	color: #fafafa;
+	margin: 0 30px;
+	float: left;
+}
+
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.main-visual-logo {
+	color: #fafafa;
+	font-size: 64px;
+	padding-top: 200px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.main-visual-text {
+	color: #fafafa;
+	font-size: 20px;
+	text-align: center;
+}
+
+main {
+	width: 100%;
+}
+
+.portfolio {
+	background-color: #eceff1;
+	padding: 90px 0;
+}
+
+.portfolio-logo {
+	font-size: 32px;
+	text-align: center;
+	color: #000000;
+	position: relative;
+}
+
+.portfolio-logo:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;/*線の上下位置*/
+  display: inline-block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  background-color: #ec715f;/*線の色*/
+}
+
+.portfolio-text {
+	color: #000000;
+	font-size: 16px;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.portfolio-image {
+	width: 920px;
+	margin: 0 auto;
+}
+
+.box {
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+
+.box:nth-child(2), .box:nth-child(5) {
+	margin: 0 10px;
+}
+
+.box:nth-child(n+4) {
+	margin-top: 10px;
+}
+
+.box-image1 {
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.box-image2 {
+	background-image: url(img/websuku.png);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.box-image3 {
+	background-image: url(img/write.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.box-image4 {
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.box-image5 {
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.box-image6 {
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.feature {
+	width: 980px;
+	margin: 90px auto;
+}
+
+.feature-logo {
+	color: #000000;
+	font-size: 32px;
+	text-align: center;
+	position: relative;
+}
+
+.feature-logo:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;/*線の上下位置*/
+  display: inline-block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  background-color: #ec715f;/*線の色*/
+}
+
+.feature-text {
+	color: #000000;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.strength-box {
+	width: 320px;
+	float: left;
+}
+
+.strength-box2 {
+	margin: 0 10px;
+}
+
+.strength-text {
+	color: #000000;
+}
+
+.fas {
+	font-size: 60px;
+	color: #000000;
+	text-align: center;
+}
+
+.strength-icon {
+	text-align: center;
+}
+
+.strength-logo {
+	font-size: 20px;
+	color: #000000;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.profile {
+	width: 100%;
+	background-color: #eceff1;
+}
+
+.profile-box {
+	width: 1024px;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+
+.profile-logo {
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	position: relative;
+}
+
+.profile-logo:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;/*線の上下位置*/
+  display: inline-block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  background-color: #ec715f;/*線の色*/
+}
+
+.profile-text {
+	color: #000000;
+	font-size: 16px;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.profile-image-box {
+	width: 512px;
+	float: left;
+}
+
+.profile-image {
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.my-face {
+	border-radius: 50%;
+}
+
+.my-profile {
+	width: 512px;
+	float: left;
+}
+
+.profile-image-logo {
+	color: #000000;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.my-profile-text {
+	color: #000000;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
