@@ -57,10 +57,6 @@ header {
 	text-align: center;
 }
 
-main {
-	width: 100%;
-}
-
 .portfolio {
 	background-color: #eceff1;
 	padding: 90px 0;
@@ -91,6 +87,10 @@ main {
 	font-size: 16px;
 	text-align: center;
 	padding: 30px 0;
+}
+
+.text-br {
+	display: none;
 }
 
 .portfolio-image {
@@ -280,7 +280,60 @@ footer {
 }
 
 @media screen and (max-width:767px) {
-	
+
+	header, .main-visual, footer, .portfolio, .feature, .profile, .contact {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.box-image2, .box-image4, .box-image6 {
+		float: none;
+	}
+
+	.box-image1 {
+		display: none;
+	}
+
+	.box-image3 {
+		display: none;
+	}
+
+	.box-image5 {
+		display: none;
+	}
+
+	.main-visual {
+		background-image: url(img/code.png);
+	}
+
+	.main-visual-logo {
+		font-size: 40px;
+	}
+
+	.mian-visual-text {
+		font-size: 18px;
+	}
+
+	.text {
+		text-align: center;
+	}
+
+	.text-br {
+		display: block;
+	}
+
+	.strength-box {
+		float: none;
+	}
+
+	.profile-image-box {
+		float: none;
+	}
+
+	.contact-box {
+		float: none;
+	}
+
 }
 
 
