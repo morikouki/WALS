@@ -376,6 +376,14 @@ footer {
 	}
 
 	.profile-image-box {
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.my-profile {
+		width: 90%;
+		margin: 0 auto;
 		float: none;
 	}
 
@@ -414,21 +422,5 @@ footer {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
