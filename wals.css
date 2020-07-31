@@ -17,6 +17,10 @@ header {
 	background-color: #ec715f;
 }
 
+.hunbarger {
+	display: none;
+}
+
 .header-nav {
 	width: 1024px;
 	margin: 0 auto;
@@ -93,7 +97,7 @@ header {
 	display: none;
 }
 
-.portfolio-image {
+.portfolio-box {
 	width: 920px;
 	margin: 0 auto;
 }
@@ -104,11 +108,7 @@ header {
 	float: left;
 }
 
-.box:nth-child(2), .box:nth-child(5) {
-	margin: 0 10px;
-}
-
-.box:nth-child(n+4) {
+.box:nth-child(n+3) {
 	margin-top: 10px;
 }
 
@@ -122,6 +122,7 @@ header {
 	background-image: url(img/websuku.png);
 	background-size: cover;
 	background-position: bottom;
+	margin: 0 10px;
 }
 
 .box-image3 {
@@ -140,6 +141,7 @@ header {
 	background-image: url(img/talk.jpg);
 	background-size: cover;
 	background-position: bottom;
+	margin: 0 10px;
 }
 
 .box-image6 {
@@ -214,6 +216,11 @@ header {
 	float: left;
 }
 
+.profile-image-logo {
+	color: #000000;
+	font-size: 20px;
+}
+
 .my-profile-text {
 	color: #000000;
 	font-size: 16px;
@@ -221,8 +228,13 @@ header {
 }
 
 .contact {
+	width: 100%;
+	padding: 90px 0;
+}
+
+.contacts {
 	width: 800px;
-	margin: 90px auto;
+	margin: 0 auto;
 }
 
 .contact-box {
@@ -282,11 +294,39 @@ footer {
 @media screen and (max-width:767px) {
 
 	header, .main-visual, footer, .portfolio, .feature, .profile, .contact {
+		width: 100%;
+	}
+
+	header {
+		height: 50px;
+	}
+
+	.nav-image {
+		height: 50px;
+	}
+
+	.list {
+		display: none;
+	}
+
+	.hunbarger {
+		height: 40px;
+		border: solid 1px #fff;
+		padding: 12px;
+		margin: 5px 0;
+		float: right;
+		display: block;
+	}
+
+	.header-nav, .main-visual-content, .feature-box, .portfolio-box, .strength-box, .profile-box, .contacts {
 		width: 90%;
 		margin: 0 auto;
 	}
 
 	.box-image2, .box-image4, .box-image6 {
+		width: 300px;
+		height: 250px;
+		margin: 0 auto;
 		float: none;
 	}
 
@@ -332,6 +372,36 @@ footer {
 
 	.contact-box {
 		float: none;
+	}
+
+	.strength-text {
+		margin-bottom: 10px;
+	}
+
+	.profile-image-logo {
+		text-align: center;
+		margin: 20px 0 5px 0;
+	}
+
+	.my-profile-text {
+		text-align: center;
+	}
+
+	.contact-box {
+		margin: 0 auto;
+	}
+
+	.contact-box-logo {
+		text-align: center;
+	}
+
+	.contact-box-text {
+		margin: 20px 0 5px 0;
+	}
+
+	.contact-icon2 {
+		margin-right: 8px;
+		margin-left: 8px;
 	}
 
 }
