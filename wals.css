@@ -372,9 +372,10 @@ footer {
 	}
 
 	.strength-box {
+		width: 320px;
+		margin: 0 auto;
 		float: none;
 	}
-
 	.profile-image-box {
 		width: 90%;
 		margin: 0 auto;
