@@ -149,7 +149,134 @@ header {
 	text-align: center;
 }
 
+.strength-box {
+	width: 320px;
+}
 
+.strength-box2 {
+	margin: 0 10px;
+}
 
+.fas {
+	font-size: 60px;
+}
 
+.strength-logo {
+	font-size: 20px;
+	margin: 10px 0;
+}
 
+.strength-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+.strength-flex {
+	display: flex;
+    flex-direction: row;
+}
+
+.profile {
+	width: 100%;
+	background-color: #eceff1;
+}
+
+.profile-box {
+	width: 1024px;
+	text-align: center;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+
+.profile-contents {
+	width: 50%;
+}
+
+.face-image {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.profile-logo {
+	font-size: 20px;
+	color: #000000;
+	margin-bottom: 5px;
+}
+
+.profile-text {
+	font-size: 16px;
+}
+
+.profile-flex {
+	display: flex;
+}
+
+.profile-left {
+	text-align: left;
+}
+
+.skill-logo {
+	margin-top: 20px;
+}
+
+.contact {
+	width: 100%;
+}
+
+.contact-box {
+	width: 800px;
+	padding: 90px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact-flex {
+	display: flex;
+}
+
+.contact-contents {
+	width: 400px;
+	text-align: left;
+}
+
+.contact-logo {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.contact-tel {
+	margin-top: 20px;
+}
+
+.fab {
+	font-size: 50px;
+}
+
+.contents {
+	width: 130px;
+	margin: 0 auto;
+}
+
+.contentss {
+	width: 180px;
+	margin: 0 auto;
+}
+
+.fa-twitter {
+	margin: 0 20px;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #ec715f;
+}
+
+.footer-text {
+	font-size: 16px;
+	color: #fafafa;
+	text-align: center;
+	line-height: 60px;
+}
