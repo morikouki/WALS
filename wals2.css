@@ -10,6 +10,20 @@ header {
 	background-color: #ec715f;
 }
 
+.hm-icon {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	border: solid 1px #fafafa;
+}
+
+.menu-trigger span {
+	width: 44px;
+	height: 2px;
+	margin: 0 auto;
+	background-color: #fafafa;
+}
+
 .header-logo {
 	height: 70px;
 }
@@ -280,3 +294,86 @@ footer {
 	text-align: center;
 	line-height: 60px;
 }
+
+@media screen and (max-width:767px) {
+
+	.header-box, .main-visual-box, .portfolio-box, .feature-box, .profile-box, .contact-box {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.header-list {
+		display: none;
+	}
+
+	.main-visual {
+		background-image: url(img/code.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.portfolio-image1, .portfolio-image3, .portfolio-image5 {
+		display: none;
+	}
+
+	.image-box {
+		display: block;
+	}
+
+	.strength-flex, .profile-flex, .contact-flex {
+		display: block;
+	}
+
+	.portfolio-image-box {
+		margin: 0 auto;
+	}
+
+	.portfolio-image4 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.strength-box {
+		margin: 0 auto;
+	}
+
+	.fa-desktop, .fa-cogs {
+		margin-top: 10px;
+	}
+
+	.profile-contents {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.contact-contents {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.contact-logo-sns {
+		margin-top: 20px;
+	}
+
+	.fa-twitter {
+		margin: 0 8px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
